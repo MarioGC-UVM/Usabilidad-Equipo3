@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.fondo-paleta {
+	background-color: #F1F1F1
+}
+
+
+p, h1, h2, h3, h4, h5, h6 {
+	color: #201E1F;
+	font-family: "Open Sans", sans-serif;
+	font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+}
+
+h1, h2 {
+	font-weight: 600
+} 
+
+h3, h4, h5, h6 {
+	font-weight: 500
+}
+
+p {
+	font-weight: 200
+}
+
+.bg-beige {
+	background-color: #FEEFDD;
+}
+
+.bg-naranja-claro {
+	background-color: #FAAA8D;
+}
